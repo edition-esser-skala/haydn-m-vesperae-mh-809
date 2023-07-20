@@ -1,0 +1,21 @@
+composer:
+  last: Haydn
+  first: Johann MIchael
+title: Vesperæ
+id: MH 809
+genre: vesper
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+license: cc-by-nc-sa-4.0
+sources:
+  B1:
+    siglum: F-Pn
+    shelfmark: D-5984 (4)
+    date: 1802–1810
+    rism: 840016805
+    url: https://gallica.bnf.fr/ark:/12148/btv1b100732158
+    license: custom (free for non-commercial purposes)
+    principal: true
+imslp:
+parts:
+  cor12: Corno I, II in
+  ottoni: Clarino I, II in D\\Timpani in D–A
