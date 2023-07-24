@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<
@@ -91,7 +91,7 @@
         \new FiguredBass { \DixitBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 110 }
     }
   }
 }
