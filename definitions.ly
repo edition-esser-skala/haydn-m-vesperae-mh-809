@@ -7,6 +7,7 @@
 
 
 tempoDixit = \tempoMarkup "Allegro molto"
+tempoConfitebor = \tempoMarkup "Allegro comodo"
 
 
 \include "notes/ob1.ly"

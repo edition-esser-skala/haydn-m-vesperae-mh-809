@@ -109,3 +109,126 @@ DixitOboeII = {
     fis r r2\fermata \bar "|." %103 finis
   }
 }
+
+ConfiteborOboeII = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 3/4 \tempoConfitebor
+    d'4\fE r fis
+    fis fis, g
+    a r g
+    a a fis'
+    e2 e,4 %5
+    d r a'
+    a8 \appoggiatura fis'16 e8 d4( cis8) cis-!
+    d \appoggiatura g16 fis8 e4( d8) dis-\parenthesize-!
+    e g h,2
+    a4 d cis %10
+    d e r8 a,
+    a d d d cis cis
+    d a d4 r
+    R2.*8 %21
+    r4 r8 a\fE a d
+    e4 e4. e,8
+    d4 a'2
+    a4 r r %25
+    r r e'\f
+    fis r r
+    R2.*2
+    r4 r g8.\fE e16 %30
+    fis4 d'8 a a fis
+    d4 r r
+    R2.*7 %39
+    r4 a\fE cis %40
+    h2 gis4
+    a a cis
+    d2 h4
+    a cis e
+    h8 d16 h a8 a gis gis %45
+    a4 r e
+    e8 \appoggiatura cis'16 h8 a4( gis8) gis-!
+    a \appoggiatura d16 cis8 h4( a8) ais-\parenthesize-!
+    h4 fis2
+    gis?4 a h %50
+    r8 a a a gis gis
+    a4 r r
+    R2.*5 %57
+    r4 cis\fE cis
+    d d2
+    e4 e2 %60
+    d4 cis h
+    h( a) r
+    a2.~\p
+    \once \tieDashed a~
+    a2 e'4 %65
+    e d fis,\f
+    e8( g) g2
+    d8( a') a2
+    a4 e' e,
+    e d h' %70
+    h ais cis
+    cis h h
+    h h8 h h h
+    ais4 fis cis'
+    r fis, cis' %75
+    r fis, h
+    r fis ais
+    r h8 h cis cis
+    d h h2
+    ais4 ais r %80
+    R2.*8 %88
+    g'2.\p
+    a %90
+    d,4 c h
+    c2 r4
+    a' g fis
+    g r r
+    R2. %95
+    r4 g, g'
+    g2.
+    fis4 fis8( a g fis)
+    fis( e) g( fis) e( d)
+    r4 r e\f %100
+    d r a
+    a4. a8 cis d
+    e4 e(\p a,)
+    r a a
+    a2 cis4 %105
+    d fis r
+    R2.
+    h,
+    a4 a2
+    d4 r r %110
+    R2.*7 %117
+    r4 d\f d
+    d2.
+    d2 cis4 %120
+    d r a
+    e'2 d4
+    d2 cis4
+    d d d
+    d cis8 h cis4 %125
+    d r a
+    a8 \appoggiatura fis'16 e8 d4( cis8) cis-\parenthesize-!
+    d \appoggiatura g16 fis8 e4( d8) dis-\parenthesize-!
+    e g h,2
+    a4 d cis %130
+    d e r8 a,
+    a d d d cis cis
+    d a d4 r
+    R2.*8 %141
+    r4 r8 a\fE a d
+    e4 e4. e,8
+    d4 d' d
+    d2. %145
+    d2 cis4
+    d r a
+    e'2 d4
+    d2 cis4
+    d d d %150
+    d cis8 h cis4
+    d r fis\p
+    fis fis, g
+    fis r r\fermata \bar "|." %154 finis
+  }
+}

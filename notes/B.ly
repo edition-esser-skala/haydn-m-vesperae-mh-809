@@ -197,3 +197,146 @@ DixitBassoLyrics = \lyricmode {
   a --
   men. %102 finis
 }
+
+ConfiteborBasso = {
+  \relative c {
+    \clef bass
+    \key d \major \time 3/4 \autoBeamOff \tempoConfitebor
+    R2.*25 %25
+    r4 \mvTr e8\fE^\tutti e a a16 a
+    a8. d,16 d4 r
+    R2.*2
+    r4 e8 e a a %30
+    a4 d, r
+    R2.*9 %40
+    e4 e e
+    a4. a8 a a
+    gis4 gis8 gis gis gis
+    a2 cis,4
+    d8 d16 d e2 %45
+    a,4 r r
+    R2.*12 %58
+    h8. h16 h4 h8 h16 h
+    cis4 cis cis8 cis16 cis %60
+    d4( e) e
+    a,8. a16 a4 r
+    R2.*4 %66
+    e'2 e4
+    fis fis fis
+    cis4. cis8 cis4
+    d8. d16 d4 h %70
+    fis'4. fis8 ais, ais
+    h2 h'4
+    g4. g8 g4
+    fis fis fis
+    e4. e8 e e %75
+    d2 d4
+    cis2 cis4
+    h2 ais4
+    h2.
+    fis'4 r r %80
+    R2.*8 %88
+    g2.\p
+    fis4. fis8 fis4 %90
+    g,( a) h
+    a4. a8 a4
+    a( h) c
+    h2 c4
+    d2 d4 %95
+    g2 r4
+    R2.
+    d2 d4
+    g,2 g4
+    a2 r4 %100
+    R2.*17 %117
+    r4 d2\f
+    h4. h'8 h4
+    g2 a4 %120
+    d, fis fis8([ d)]
+    cis4. cis8 d4
+    g4. g8 a4
+    d d,8 d fis d16 d
+    a'2 a,4 %125
+    d r r
+    R2.*17 %143
+    r4 d d
+    h h' h8 h %145
+    g4. g8 a4
+    d, fis4. d8
+    cis4 cis d8 d
+    g4. g8 a4
+    d4. d,8 fis d %150
+    a'2( a,4)
+    d r r
+    R2.
+    R\fermata \bar "|." %154 finis
+  }
+}
+
+ConfiteborBassoLyrics = \lyricmode {
+  Ma -- gna o -- pe -- ra %26
+  Do -- mi -- ni
+
+  vo -- lun -- ta -- tes %30
+  e -- ius.
+
+  Vir -- tu -- tem
+  o -- pe -- rum su --
+  o -- rum an -- nun -- ti --
+  a -- bit
+  po -- pu -- lo su --
+  o.
+
+  O -- pe -- ra ma -- nu -- um %59
+  e -- ius ve -- ri -- tas %60
+  et __ iu --
+  di -- ci -- um.
+
+  Con -- fir -- %67
+  ma -- ta in
+  sae -- cu -- lum
+  sae -- cu -- li. Re -- %70
+  dem -- pti -- o -- nem
+  mi -- sit
+  po -- pu -- lo
+  su -- o, man --
+  da -- vit in ae -- %75
+  ter -- num
+  te -- sta --
+  men -- tum
+  su --
+  um. %80
+
+  I -- %89
+  ni -- ti -- um %90
+  sa -- pi --
+  en -- ti -- ae
+  ti -- mor,
+  ti -- mor
+  Do -- mi -- %95
+  ni,
+
+  ti -- mor
+  Do -- mi --
+  ni. %100
+
+  Lau -- %118
+  da -- ti -- o
+  e -- ius %120
+  ma -- net in __
+  sae -- cu -- lum
+  sae -- cu -- li,
+  ma -- net in sae -- cu -- lum
+  sae -- cu -- %125
+  li.
+
+  Si -- cut %144
+  e -- rat in prin -- %145
+  ci -- pi -- o
+  et nunc et
+  sem -- per et in
+  sae -- cu -- la
+  sae -- cu -- lo -- rum, %150
+  a --
+  men. %152 finis
+}
