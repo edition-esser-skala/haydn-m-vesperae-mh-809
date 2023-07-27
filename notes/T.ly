@@ -324,3 +324,176 @@ ConfiteborTenoreLyrics = \lyricmode {
   _ _
   men. %152 finis
 }
+
+BeatusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key g \major \time 6/8 \autoBeamOff \tempoBeatus
+    R2.*8 %8
+    \mvTr h4.(\pE^\solo d)
+    c4 c8 h r g %10
+    g g g e'([ d)] c
+    h4 a8 g4 r8
+    r d' d c8.([ h16)] a8 r
+    c h d4 h8
+    r c a fis([ g)] d' %15
+    d4( e8) a,4 r8
+    d d fis fis d a16 a
+    a4 a8 a a r
+    r d d fis8.([ d16)] a8
+    a([ e')] a, a4 d8 %20
+    r h4 h8([ dis)] e
+    fis4( e8) d4 r8
+    r g g16 g fis d d8 r
+    r cis g' fis16 d d8 r
+    cis cis  g' fis d r %25
+    cis([ d)] a a16 d d4
+    cis8([ d)] a a16([ d)] d4
+    r8 h4 h8 dis e
+    fis4 e8 d r r
+    R2.*2 %31
+    a4. a4 c!8
+    h4( d8) d d4
+    dis4 dis8 dis fis dis
+    h4 h8 h4 h8 %35
+    e e a, a4 a8
+    d4 d8 h4 e8
+    e8. e16 cis8 d([ fis)] d
+    e([ cis)] cis d d4
+    cis16([ d e d)] cis([ h)] a8([ cis)] e %40
+    e4 cis8 d4 r8
+    h4 h8 d8. d16 d d
+    c!4. h8 r d
+    g,4 g8 e'([ d)] c
+    h4( a8) g4 r8 %45
+    r d'([ c8.)] h16 a8 r
+    r c h d4 h8
+    r c16 c a a fis fis g8 d'
+    d16 d d8([ e)] a, r r
+    h h h d h d %50
+    d4 d8 d4 r8
+    r r h d8. h16 d8
+    d([ a)] d d([ h)] d
+    c c g' e d c
+    h4 \appoggiatura d16 c8 h4 r8 %55
+    r fis' fis g16 d d8 r
+    r c([ fis)] g16 g d8 h
+    h8. a16 a8 r d d
+    d4 c8 h([ d)] d
+    d4 d8 d4 r8 %60
+    cis4. cis8 d a
+    a4. d,4 r8
+    R2.*2
+    cis'4. cis8([ d)] a %65
+    a4. d,4 r8
+    r r h'4 g8 h
+    e4( c8) h r h~
+    h8.[ a16] a8 r d d
+    d4 c8 h([ d)] e %70
+    d4 c8 h h h
+    h d d d4.
+    d8 h h h d d
+    h4( c8) h4 r8
+    R2.*4 %78
+    h8. h16 h8 d d d
+    c4 c8 h r g~ %80
+    g4 g8 e' d c
+    h4( a8) g r r
+    r h d c8.([ h16)] a8 r
+    c h d8. d16 h8
+    r c([ a)] fis([ g)] d' %85
+    d4( e8) a,4 r8
+    c!4 fis8 g h, d
+    c([ a)] a d d r
+    r h h d8. h16 d8
+    d([ a)] d d([ h)] d %90
+    c4 g'8 e([ d)] c
+    h4( \grace d16 c8) h8 d d
+    c2.
+    h4 r8 r4 r8\fermata \bar "|." %94 finis
+  }
+}
+
+BeatusTenoreLyrics = \lyricmode {
+  Be -- %9
+  a -- tus vir qui %10
+  ti -- met, qui ti -- met
+  Do -- mi -- num:
+  In man -- da -- tis,
+  in man -- da -- tis
+  e -- ius vo -- let %15
+  ni -- mis.
+  Po -- tens in ter -- ra e -- rit
+  se -- men e -- ius:
+  Ge -- ne -- ra -- ti --
+  o __ re -- cto -- rum %20
+  be -- ne -- di --
+  ce -- tur.
+  Glo -- ri -- a, glo -- ri -- a
+  et di -- vi -- ti -- ae
+  in do -- mo e -- ius, %25
+  et __ iu -- sti -- ti -- a
+  e -- ius ma -- net
+  in sae -- cu -- lum
+  sae -- cu -- li.
+
+  Iu -- cun -- dus %32
+  ho -- mo qui
+  mi -- se -- re -- tur et
+  com -- mo -- dat, dis -- %35
+  po -- net ser -- mo -- nes
+  su -- os in iu --
+  di -- ci -- o, qui -- a
+  in __ ae -- ter -- num
+  non, __ non com -- mo -- %40
+  ve -- bi -- tur.
+  In me -- mo -- ri -- a ae --
+  ter -- na, ae --
+  ter -- na e -- rit
+  iu -- stus, %45
+  ma -- la non,
+  non ti -- me -- bit,
+  ab au -- di -- ti -- o -- ne ma -- la
+  non ti -- me -- bit.
+  Dis -- per -- sit de -- dit pau -- %50
+  pe -- ri -- bus,
+  iu -- sti -- ti -- a
+  e -- ius ma -- net,
+  ma -- net in sae -- cu -- lum
+  sae -- cu -- li, %55
+  ex -- al -- ta -- bi -- tur
+  in __ glo -- ri -- a, in
+  glo -- ri -- a, ex -- al --
+  ta -- bi -- tur in
+  glo -- ri -- a. %60
+  Pec -- ca -- tor vi --
+  de -- bit
+
+  et i -- ra -- %65
+  sce -- tur,
+  den -- ti -- bus
+  su -- is fre --
+  met et ta --
+  be -- scet, de -- si -- %70
+  de -- ri -- um pec -- ca --
+  to -- rum per -- i --
+  bit, pec -- ca -- to -- rum per --
+  i -- bit.
+
+  Glo -- ri -- a Pa -- tri et %79
+  Fi -- li -- o et __ %80
+  Spi -- ri -- tu -- i
+  San -- cto,
+  si -- cut e -- rat
+  in prin -- ci -- pi -- o
+  et __ nunc et %85
+  sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, %90
+  a -- men, a -- men,
+  a -- men, a -- men,
+  a --
+  men. %94 finis
+}

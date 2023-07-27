@@ -450,3 +450,179 @@ ConfiteborSopranoLyrics = \lyricmode {
   lo -- rum, a --
   men. %152 finis
 }
+
+BeatusSoprano = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \autoBeamOff \tempoBeatus
+    R2.*8 %8
+    \mvTr d'4.\pE^\solo h8 h h
+    c4 e8 d r g, %10
+    g'4.~ g8[ fis] e
+    d4 c8 h g g
+    g8.([ fis16)] fis8 r fis a
+    a4 g8 r g h
+    h([ a c e d)] c %15
+    c4( h8) a r r
+    fis' fis d d a fis16 fis
+    e4 g8 g fis r
+    r d' fis d8.([ a16)] fis8
+    e([ a)] g fis d' c! %20
+    h([ e)] dis e fis g
+    d4( cis8) d4 r8
+    r a cis16 cis d a a8 r
+    r e' cis d16 a a8 r
+    a e' cis d a r %25
+    a4 g8 fis a a
+    a4 g8 fis([ d')] c!
+    h e dis e fis g
+    d4 cis8 d4 r8
+    R2.*2 %31
+    a4. fis4 fis8
+    g4( h8) a r a
+    a4 a8 fis' a, a
+    a([ g)] g g4 h8 %35
+    c c c c([ d)] c
+    c([ h)] h r e d
+    d16 cis cis8 r r d a
+    a4 a8 d([ a)] a
+    a16([ h cis d)] e([ fis)] g8([ e)] cis %40
+    cis4 e8 d4 r8
+    d4. h
+    c!4 e8 d r g,
+    g'4 g8 g([ fis)] e
+    d4( c8) h r g~ %45
+    g8.[ fis16] fis8 fis4 a8
+    a4 g8 r g h
+    h([ a)] c e([ d)] c
+    c4( h8) a4 r8
+    d d d g([ d)] h %50
+    a a c c16 c h8 r
+    r r d g8. d16 h8
+    a([ d)] c h([ g')] f
+    e e dis e fis g
+    g,4 \appoggiatura h16 a8 g8 g h %55
+    d4 d8 d4 d8
+    d4 d8 d r e
+    d8. c16 c8 r a c
+    h([ g)] e' d([ g)] d
+    c4 h8 a4 r8 %60
+    g'4. g8 fis e
+    e4( d8) d4 r8
+    R2.*2
+    r8 g g16 g g8([ fis)] e %65
+    e4( d8) d r c!(
+    h[ g)] d' d([ h)] g'
+    g4( e8) d d e
+    d8. c16 c8 r a c
+    h g e' d h g' %70
+    g,4( \grace h16 a8) g d' d
+    d h g' a,4( c8)
+    h d d d h g'
+    g,4( \grace h16 a8) g4 r8
+    R2.*4 %78
+    d'8. d16 d8 h h h
+    c4 e8 d4 r8 %80
+    g4 g8 g fis e
+    d4( c8) h r g16 g
+    g8.([ fis16)] fis8 r fis a
+    a8. a16 g8 r r h
+    h([ a)] c e([ d)] c %85
+    c4( h8) a4 r8
+    fis'4 d8 g d h
+    a4 c8 c h r
+    r d d g8. d16 h8
+    a([ d)] c h([ g')] f %90
+    e4 dis8 e([ fis)] g
+    g,4( \grace h16 a8) g g h
+    d2.
+    h4 r8 r4 r8\fermata \bar "|." %94 finis
+  }
+}
+
+BeatusSopranoLyrics = \lyricmode {
+  Be -- a -- tus, be -- %9
+  a -- tus vir qui %10
+  ti -- met
+  Do -- mi -- num: In man --
+  da -- tis, in man --
+  da -- tis e -- ius
+  vo -- let %15
+  ni -- mis.
+  Po -- tens in ter -- ra e -- rit
+  se -- men e -- ius:
+  Ge -- ne -- ra -- ti --
+  o __ re -- cto -- rum, re -- %20
+  cto -- rum be -- ne -- di --
+  ce -- tur.
+  Glo -- ri -- a, glo -- ri -- a
+  et di -- vi -- ti -- ae
+  in do -- mo e -- ius, %25
+  et iu -- sti -- ti -- a
+  e -- ius ma -- net,
+  ma -- net in sae -- cu -- lum
+  sae -- cu -- li.
+
+  Iu -- cun -- dus %32
+  ho -- mo qui
+  mi -- se -- re -- tur et
+  com -- mo -- dat, dis -- %35
+  po -- net ser -- mo -- nes
+  su -- os in iu --
+  di -- ci -- o, qui -- a
+  in ae -- ter -- num
+  non, __ non com -- mo -- %40
+  ve -- bi -- tur.
+  In me --
+  mo -- ri -- a ae --
+  ter -- na e -- rit
+  iu -- stus, ab __ %45
+  au -- di -- ti --
+  o -- ne ma -- la,
+  ma -- la non ti --
+  me -- bit.
+  Dis -- per -- sit de -- dit, %50
+  de -- dit pau -- pe -- ri -- bus,
+  iu -- sti -- ti -- a
+  e -- ius ma -- net,
+  ma -- net in sae -- cu -- lum
+  sae -- cu -- li, cor -- nu %55
+  e -- ius ex -- al --
+  ta -- bi -- tur in
+  glo -- ri -- a, ex -- al --
+  ta -- bi -- tur in
+  glo -- ri -- a. %60
+  Pec -- ca -- tor vi --
+  de -- bit,
+
+  den -- ti -- bus su -- is %65
+  fre -- met, fre --
+  met et __ ta --
+  be -- scet, de -- si --
+  de -- ri -- um pec -- ca --
+  to -- rum per -- i -- bit, per -- %70
+  i -- bit, pec -- ca --
+  to -- rum per -- i --
+  bit, pec -- ca -- to -- rum per --
+  i -- bit.
+
+  Glo -- ri -- a Pa -- tri et %79
+  Fi -- li -- o %80
+  et Spi -- ri -- tu -- i
+  San -- cto, si -- cut
+  e -- rat in prin --
+  ci -- pi -- o et
+  nunc, et nunc et %85
+  sem -- per
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum,
+  et in sae -- cu -- la
+  sae -- cu -- lo -- rum, %90
+  a -- men, a -- men,
+  a -- men, a -- men,
+  a --
+  men. %94 finis
+}
+
+% Ex -- or -- tum est in te -- ne -- bris lu -- men re -- ctis:
+%   Mi -- se -- ri -- cors et mi -- se -- ra -- tor et iu -- stus.

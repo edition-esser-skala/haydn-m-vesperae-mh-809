@@ -270,3 +270,104 @@ ConfiteborViola = {
     <a d,>4 r r\fermata \bar "|."
   }
 }
+
+BeatusViola = {
+  \relative c' {
+    \clef alto
+    \key g \major \time 6/8 \tempoBeatus
+    g16(\fE fis g a h c) d( cis d f e d)
+    c( d e d e fis) g( h) d,( g,) h( g)
+    e'( a g fis g h,) c( d e fis g a)
+    d,( fis a fis d fis) g8 g, d'
+    fis, fis' a g h d, %5
+    c fis, d' d g h
+    a fis d g h, c
+    d4.~ d8. g,16( a c)
+    h8\pE r r r g' g
+    g4.~ g8 h g %10
+    e e, r c' c, r
+    d' e fis g g, h
+    d4 r8 fis, d' fis
+    fis4( g8) r4 r8
+    r a, fis d4 r8 %15
+    g( g') cis,-! d-! d(\fz e)
+    d\p r r d r r
+    a4. a4 d8\fz
+    d4. d,\p
+    a' d %20
+    g,8 g' fis g fis e
+    a a, a a fis' d
+    a\fz r a' d,\p fis d
+    a\fz r a' d,\p fis d
+    a\fz r a' d,\p fis d %25
+    a( h cis) d( e fis)
+    a,( h cis) d( e fis)
+    g, g' fis g fis e
+    a a,4 a8 d\f a'
+    cis,4 e8 d fis, g %30
+    \once \tieDashed a4.~ a8. \once \slurDashed fis'16( e cis)
+    d4\p r8 d4 r8
+    d4 r8 d d d
+    dis4 dis8 dis h dis
+    h4 h8 e4 e,8 %35
+    e' a, c! fis d c
+    d4. h8 e, e'
+    e cis a a d, d'
+    e a, cis a d fis
+    a,4. a %40
+    d,4 r8 d' e fis
+    g4 r8 r g g
+    g4.~ g8 h g
+    e e, r c' c, r
+    d' e fis g g, h %45
+    d4 r8 fis, d' fis
+    fis4( g8) r4 r8
+    r a, fis d4 r8
+    g g'( cis,) d r d\fzE
+    g4\pE r8 g4 r8 %50
+    d4. d4 g8\fz
+    g4. g,\p
+    d g
+    c8 c h c d e
+    d4. d8 r d %55
+    d4\fz r8 g,\p h g
+    d'4\fz r8 r4 r8
+    r r e\p d\fz d d
+    d4\pE r8 r4 r8
+    r4 r8 r fis\fz d %60
+    a a a a4 r8
+    a a a a4.\p
+    h4 r8 d4 r8
+    g,-! g( h) d d\fz d
+    a a a a4 r8 %65
+    a a( d,) d4 r8
+    d'4. d
+    c8-! c( e) g( f e)
+    a e4 d8\fz d d
+    g,\pE r r g r h %70
+    d d d d4 r8
+    r r d d4.
+    d4 r8 r r d
+    d d d d r d\f
+    fis, fis' a g h d, %75
+    c fis, d' d g h
+    a fis d g h, c
+    \once \tieDashed d4.~ d8. g,16( a c)
+    h4\p r8 r g' g
+    g4. g8 h g %80
+    e e, r c' c, r
+    d' e fis g g, h
+    d4 r8 fis, d' fis
+    fis4( g8) r4 r8
+    r a, fis d4 r8 %85
+    g g'( cis,) d d\fz d^\critnote
+    fis\pE d fis, d' g, d'
+    fis d fis d4 h8
+    d( g,) g-! h g4
+    d' c8 h-! h( g) %90
+    e' c h e d c
+    d4 a8 d d d
+    c4 c8 fis d c
+    d r d,\pp d4 r8\fermata \bar "|." %94 finis
+  }
+}

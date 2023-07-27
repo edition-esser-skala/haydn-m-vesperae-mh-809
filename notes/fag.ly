@@ -280,3 +280,104 @@ ConfiteborFagotto = {
     d r r\fermata \bar "|." %154 finis
   }
 }
+
+BeatusFagotto = {
+  \relative c {
+    \clef bass
+    \key g \major \time 6/8 \tempoBeatus
+    g'8\fE h d f g, r
+    g g g g h g
+    e4. c
+    d g,8 h' g
+    a d, c' h g h %5
+    a d, a' h g h
+    a fis d g h, c
+    d4 d8 g, h d
+    g\p g, r g' g, r
+    g' g g g h g %10
+    e r e c r c
+    d e fis g g, h
+    d8 r r d d d
+    d r r d d d
+    d4 r8 d e fis %15
+    g g, cis d fis\fz a
+    d,\p r r d r r
+    a a' cis, d d' d\fz
+    d r r d,\p r r
+    a4( cis8) d4( fis8) %20
+    g, g' fis g fis e
+    a a a d, fis d
+    a\fz r a' d,\p fis d
+    a\fz r a' d,\p fis d
+    a\fz r a' d,\p fis d %25
+    a( h cis) \once \slurDashed d( e fis)
+    a,( h cis) \once \slurDashed d( e fis)
+    g, g' fis g fis e
+    a a a d, fis\f d
+    e a, g' fis fis, g %30
+    a4 a8 d fis a
+    d,\p d d d d d
+    d4. d8 fis d
+    c! r c h dis h
+    e4 h'8 e,4 e8 %35
+    a,4 c!8 d4 d8
+    g d' h g e g
+    g a g fis4 d8
+    cis r a d fis d
+    a4 r8 r r a %40
+    d d d d e fis
+    g g, r g' g, r
+    g' g g g h g
+    e r e c r c
+    d e fis g g, h %45
+    d4. d8 d d
+    d4 r8 d d d
+    d4. d8 e fis
+    g g, cis d c'\fzE fis,
+    r g\p g, r g' g, %50
+    r4 r8 r g' g\fz
+    g g g, r g'\p g,
+    d'4( fis8) g4( h8)
+    c c, h c d e
+    d d d g, h' g %55
+    d4\fz d'8 g,\p h g
+    d\fz r d g,\p g' gis
+    a a, a'16 g fis8\fz d' fis,
+    g\p r r g r fis
+    g g, h d r r %60
+    a2.\fz
+    d4 r8 r4 r8
+    R2.
+    d4.\pE d8( fis d)
+    a2.\fz %65
+    d4 r8 r4 r8
+    g, g' g g g g
+    g4.~ g8 f e
+    a a, a'16 g! fis8\fz d' fis,
+    g\p r r g r cis, %70
+    d d d g, g' g
+    g r h, d4.
+    g8 g g g r h,
+    d d d g, h'\f g
+    a d, c' h g h %75
+    a d, a' h g h
+    a fis d g h, c
+    d4 d8 g,-! h-! d-!
+    g\p g, r g' g, r
+    g' g g g h g %80
+    e r e c r c
+    d e fis g g, h
+    d r r d d d
+    d4 r8 d d d
+    d4 r8 d e fis %85
+    g g, cis d fis\fz a
+    d,\p d' fis, g g, r
+    d' fis d g, g' g
+    g4. g
+    d4( fis8) g4 h,8 %90
+    c c h c d e
+    d d d g, h g
+    d' r d d d d
+    g, h d\pp g,4 r8\fermata \bar "|." %94 finis
+  }
+}

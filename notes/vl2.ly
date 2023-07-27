@@ -270,3 +270,104 @@ ConfiteborViolinoII = {
     fis4 r r\fermata \bar "|." %154 finis
   }
 }
+
+BeatusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoBeatus
+    h16(\fE a h c d e) f( e f a g f)
+    e( fis g fis g a) h( d) g,( d) d( h)
+    h'( c h a h g) e( fis g a h c)
+    fis,( a c a fis a) g( h, d g, h d)
+    d'( c) r a( fis d) e'( d) r d( g) h-! %5
+    g( fis) r a( c) fis,-! a( g) r h( g d)
+    d'( c) r a( fis c) h( h') g( d) e( g)
+    d,( h' g h, a c) h8[ r16 d( fis a)]
+    g(\p d h c d e) f( e f d-\critnote g, d')
+    c( d e d e fis) g( h) d,( g,) h( g) %10
+    e'( a g fis g h,) c( d e fis g a)
+    d,( fis g h d, a') g( d) h'( g) g,( h)
+    h4( a8) d16( c a h c d)
+    \once \slurDashed c4( h8) h16( a h d g a)
+    g8( fis) a-! c( h a) %15
+    \once \slurDashed a4( g8) fis a\fz cis
+    d16(\p a fis' d a fis) a( fis d' a fis d)
+    \once \slurDashed cis4( e8) e([ d)] fis16(\fzE a)
+    d( a fis'\p d a fis) a( fis d' a fis d)
+    cis8( e4) fis8( a4) %20
+    h8 r r h a g
+    \once \slurDashed fis4( e8) d d16( fis) a( d)
+    cis(\fz a' g e a, e') fis(\p cis) d( a) a( fis)
+    cis'(\fz a' g e a, e') fis(\p cis) d( a) a( fis)
+    cis'(\fz a' g e a, e') fis(\p cis) d( a) a( fis) %25
+    cis8( d e) fis( g a)
+    cis,( d e) fis( g a)
+    h r r h a g
+    fis-! fis( e) d[ r16 \once \slurDashed a'(\f d fis)]
+    a( g) r g( e cis) h'( a) r \once \slurDashed d( h d) %30
+    a,( fis' d fis, e g) fis8 d16( a' g e)
+    d(\p e fis e d cis) d( e fis g a fis)
+    g( a h a h cis) d( fis) a,( d,) fis( d)
+    \once \slurDashed fis( a) r a-! fis( a) \once \slurDashed fis( a) r fis-! a( fis)
+    fis( e g fis e dis) \slurDashed e( g a g h g) %35
+    e( g a g e g) \slurSolid a( fis) r fis( a fis)
+    fis( g a g c h) a( g) r a( h h)
+    a8 cis16( h a cis) a( d, g fis e d)
+    e( g e cis e cis) a( e' g fis e d)
+    cis( d e fis e d) e( cis a' g e g) %40
+    g( fis e fis g e) fis( a d, g d a')
+    d,( c! h c d e) f( e f d g, d')
+    c( d e d e fis) g( h) d,( g,) h( g)
+    e'( a g fis g e) c( d e fis g a)
+    d,( fis g h d, a') g( d) h'( g) g,( d') %45
+    \once \slurDashed h4( a8) d16( c a h c d)
+    c4( h8) h16( a h d g a)
+    \once \slurDashed g8( fis) a-\parenthesize-! d,16( c' h g d a')
+    a4( g8) fis fis16(\fz a d fis)
+    g(\p d h' g d h) d( h g' d h g) %50
+    fis4( a8) a( g) h16([\fz d)]
+    g( d h' g d h) d(\p h g' d h g)
+    fis8( a4) h8( d4)
+    g,8 g g g4 r8
+    g( d) c-! h g'16( d) h'( g) %55
+    fis(\fz d' c a d, a') h(\p fis g d h' g)
+    fis(\fz d' c a d, a') h(\p d,) h8[ h']
+    h( gis) a-! c(\fzE a) a-!
+    g4(\pE c8) h4( a8)
+    a4( g8) fis r d'16(\fz a) %60
+    a( a' g fis e d) cis( e d a g e)
+    \once \slurDashed cis( e g fis a g) fis(\p e d e fis d)
+    g,8( d') g-! g( d) h'-!
+    h4( g8) fis d16(\fzE a' d a)
+    cis( e g fis e d) cis( e d a g e) %65
+    e( a, e' fis a fis) d(\p fis a d, fis a)
+    g8( d) h'-! h( d,) d'-!
+    e16( d fis e d c) h8-! h( d)
+    h( gis a) c(\fz a) a-!
+    g4\p r8 d g g %70
+    h,( d c) h16( d h d g h)
+    d8 d r \once \slurDashed fis,4( a8)
+    g16( d h d g h) d8 d r
+    h,-! h( c) h16-! h-! d(\f g,) h( d)
+    d'( c) r a-! fis( d) e'( d) r d( g h) %75
+    g( fis) r a( c) fis, a( g) r h( g d)
+    d'( c) r a-! fis( c) h( h' g d e g)
+    d,( h' g h, a c) h8. \once \slurDashed d16( fis a)
+    \once \slurDashed d,(\p c h c d e) f( e f d h d)
+    c( d e d e fis) g( h) d,( h) h( g) %80
+    e'( a g fis g h,) c( d e fis g a)
+    d,( fis g h d, a') g( d) h'( g) g,( d')
+    \once \slurDashed h4( a8) d16( c a h c d)
+    c4( h8) \once \slurDashed h16( a h d g a)
+    g8( fis) a-! c( h a) %85
+    a4( g8) fis a16(\fz fis) d'( a)
+    c!(\pE a a' fis c a) h( d, h' g d h)
+    a'( g fis g a h) a8([ g)] h16( d)
+    g( d h' g d h) d( h g' d h g)
+    fis8( a4) \once \slurDashed h8( d4) %90
+    g,8 g g g4 r8
+    g( h,) c-! h g'16( d) d'( h)
+    fis( d' c a fis a) c8( a) a-!
+    h-! h-! h-!\pp g4 r8\fermata \bar "|." %94 finis
+  }
+}

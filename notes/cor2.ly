@@ -115,3 +115,73 @@ ConfiteborCornoII = {
     c, r r\fermata \bar "|." %154 finis
   }
 }
+
+BeatusCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoBeatus
+    R2.*4
+    r4 r8 r c\mf c
+    c2.~
+    c4. r4 r8
+    c4 r8 r4 r8
+    R2.*4 %12
+    c2.~\p
+    c
+    c4. r4 r8 %15
+    r4 r8 r c\fzE g'
+    c,4\pE r8 r4 r8
+    r4 r8 r r e\fzE
+    e r r r4 r8
+    R2.*3 %22
+    g4\fzE r8 r4 r8
+    g4\fzE r8 r4 r8
+    g4\fzE r8 r4 r8 %25
+    R2.*3
+    r4 r8 r r e\f
+    g4. g4 r8 %30
+    g c g e4 r8
+    R2.
+    r4 r8 r c\p c
+    R2.*2 %35
+    g'4 r8 c,4 r8
+    c4 r8 r4 r8
+    r g' g g4 r8
+    g,4 r8 g4 r8
+    R2.*6 %45
+    c2.~
+    c
+    c
+    R2.*7 %55
+    c4\fzE r8 r4 r8
+    c4\fzE r8 r4 r8
+    R2.*2
+    r4 r8 r c\fzE e %60
+    g4 r8 r4 r8
+    c,4 r8 r4 r8
+    R2.
+    r4 r8 r c\fzE e
+    g4 r8 r4 g8 %65
+    c,4 r8 r4 r8
+    R2.*5 %71
+    r4 r8 c4\pE r8
+    R2.*2
+    r4 r8 r c\f c %75
+    c2.~
+    c4. r4 r8
+    c4 r8 r4 r8
+    R2.*4 %82
+    c2.~\pE
+    c
+    c4. r4 r8 %85
+    r4 r8 r c\fzE e
+    c4\pE r8 c4 r8
+    c4. c4 r8
+    c4 r8 r4 r8
+    c4 r8 c4 r8 %90
+    R2.
+    r8 c c c4 r8
+    c4. c8 c c
+    c4 r8 r4 r8\fermata \bar "|." %94 finis
+  }
+}

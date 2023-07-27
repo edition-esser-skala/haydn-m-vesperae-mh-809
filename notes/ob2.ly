@@ -232,3 +232,83 @@ ConfiteborOboeII = {
     fis r r\fermata \bar "|." %154 finis
   }
 }
+
+BeatusOboeII = {
+  \relative c' {
+    \clef treble
+    \key g \major \time 6/8 \tempoBeatus
+    g'4.\fE g
+    c h8 d r
+    g,4. e'8 d c
+    r fis, a g d g
+    d4. r8 h' g %5
+    r c c r h g
+    fis a4 g8 g g
+    g4 fis8 g4 r8
+    h4.\p h
+    c h8 r r %10
+    R2.*5 %15
+    r4 r8 r a\fzE cis
+    \slurDashed d(\pE fis) r a,( d)^\critnote r \slurSolid
+    r4 r8 r4 a8\fz
+    d( fis) r a,(\p d) r
+    R2.*2 %21
+    r4 r8 r a( d)
+    e4(\fz cis8) r \once \slurDashed a(\p d)
+    e4(\fz cis8) r \once \slurDashed a(\p d)
+    e4(\fz cis8) r a(\p d) %25
+    R2.*3
+    r4 r8 r a\f d
+    e4( cis8) r d d %30
+    d4 cis8 d4 r8
+    fis(\p d) r a( c!) r
+    r4 r8 fis( a,) fis-\parenthesize-!
+    r fis'( dis) r fis( dis)
+    r e( h) r h( g) %35
+    a'4 r8 fis4 r8
+    a,( g) g-! r4 r8
+    cis?4 r8 a4 r8
+    e'4 r8 d4 r8
+    R2. %40
+    r4 r8 fis, g a
+    g4( h8) h4( d8)
+    e4( c8) h4 r8
+    R2.*5 %48
+    r4 r8 r fis\fzE a'
+    g(\pE h) r d,( g) r %50
+    r4 r8 r r g\fz
+    g( h) r \once \slurDashed d,(\p g) r
+    R2.*2
+    r4 r8 r d g %55
+    a4(\fz fis8) r d\p g
+    a4(\fz fis8) r4 r8
+    R2.*2
+    r4 r8 r r a,\fzE %60
+    cis cis cis cis( d cis)
+    \once \slurDashed cis4( d8) d4 r8
+    R2.
+    r4 r8 r4 a8\fzE
+    cis cis cis cis( d) e-! %65
+    \once \slurDashed e4( d8) d4 r8
+    R2.*4 %70
+    r4 r8 r h\p h
+    h4 r8 a4 fis8
+    g d' d d4 r8
+    g,4 fis8 g d\f g
+    d4. r8 h' g %75
+    r c c r h g
+    fis a4 g8 g g
+    g4 fis8 g4 r8
+    h4.\p h
+    c h8 r r %80
+    R2.*5 %85
+    r4 r8 r a\fzE d^\critnote
+    a'\pE fis r g d r
+    fis a, r r h d
+    g h r d, g r
+    R2.*2 %91
+    r4 r8 r d g
+    a4( fis8) r c c
+    h d h\pp g4 r8\fermata \bar "|." %94 finis
+  }
+}
