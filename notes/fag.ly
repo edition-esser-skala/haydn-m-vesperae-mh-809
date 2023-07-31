@@ -381,3 +381,11 @@ BeatusFagotto = {
     g, h d\pp g,4 r8\fermata \bar "|." %94 finis
   }
 }
+
+LaudateFagotto = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \tempoLaudate
+    
+  }
+}

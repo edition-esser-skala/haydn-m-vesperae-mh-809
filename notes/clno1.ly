@@ -106,3 +106,11 @@ DixitClarinoI = {
     c r r2\fermata \bar "|." %103 finis
   }
 }
+
+LaudateClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoLaudate
+    
+  }
+}

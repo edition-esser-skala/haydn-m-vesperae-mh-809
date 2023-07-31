@@ -515,3 +515,164 @@ BeatusBassoLyrics = \lyricmode {
   a --
   men. %94 finis
 }
+
+LaudateBasso = {
+  \relative c {
+    \clef bass
+    \key b \major \time 4/4 \autoBeamOff \tempoLaudate
+    \mvTr f2\pE^\solo g4 es'8 c
+    b4( a) b r
+    f2 f4 f
+    f f8 f f4. f8
+    f4 c' d, b' %5
+    c,8.([ e16)] f8 a b,4 g'
+    a,8([ c)] f4 f( \grace a16 g8.) f16
+    f4 r r f
+    g( b) a r
+    r8 f f f g4 b %10
+    a c, f8([ c)] f([ a)]
+    c1~
+    c4. c8 c,4 r
+    r c' d, b'
+    c,8.([ e16)] f8 a b,4 g' %15
+    a,8 c f4. f16 f g4
+    a r r r8 g16([ f)]
+    e8 c f d' b4( c8.) c16
+    f,4 r r2
+    R1 %20
+    \mvTr f4\fE^\tutti f8 e d([ f16 e)] d8 c
+    b g c([ e)] f4 r
+    g8. g16 g8 f es! g16 f es8 d
+    c a16 a d8 fis g g b g
+    r c b g fis c' b g %25
+    r c b g r g f! d
+    r g f d cis([ g')] f d
+    b'4. b8 a4 r
+    gis8 gis gis8. gis16 a4 r
+    d,4. d8 b'4 b %30
+    cis,8 cis cis8. cis16 d8 a'([ d)] d
+    d4 c!8 h a8. a16 a,4
+    r8 a'([ f16)] f d8 r4 e8 e16 e
+    a8 a,16 a a8. a16 d4 r
+    R1 %35
+    d2 b'!4 b8 b
+    cis,2 d4 a'8 a
+    h,4. h8 c4 g'8 g
+    a,4. a8 b!4 r
+    es es c'8. c16 c4 %40
+    d,8 d16 d d4 es r8 es
+    e e e8. e16 f4 r8 f(
+    fis4) fis g g8 g
+    es! es r cis' d d, r4
+    d d8 d b' b b b %45
+    cis,8. cis16 cis8 cis d d d' a
+    fis([ c'!)] a([ fis]) g d d d
+    d4 d8 d d d r d
+    cis2 d4 r8 d
+    g2 fis4 d %50
+    d d d8 d16 d d8 d
+    d d d d d4 d
+    d d8 d g,4. g8
+    d'4 r r2
+    R1 %55
+    \mvTr f!4\pE^\solo f8 f g4 es'8 c
+    b4 a b r
+    f f f8 f f f
+    f4. f8 f4 f
+    f c' d, b' %60
+    c,8([ e)] f([ a)] b,8. b16 g'4
+    a,8. c16 f8 f f4( \grace a16 g8.[ f16)]
+    f4 r r f
+    g8 g b4 a r
+    r8 f f f g4 b %65
+    a f8 f a f a \once \override DynamicText.X-offset = #-4 \once \override TextScript.X-offset = #-2 c\fE^\tutti
+    es!4 es,2 c4
+    d8.([ c16)] b4 r c(
+    d8) b b' a g f16 f es8 d
+    c([ b)] a r a'4 b %70
+    es,( f) b,8 d([ f)] b
+    a4 f b,8([ d f)] b
+    a4 f b b,
+    a'( b es,) d
+    es( f) b, r %75
+    R1\fermata \bar "|." %76 finis
+  }
+}
+
+LaudateBassoLyrics = \lyricmode {
+  Lau -- da -- te, lau --
+  da -- te,
+  lau -- da -- te
+  pu -- e -- ri Do -- mi --
+  num, lau -- da -- te %5
+  no -- men, lau -- da -- te
+  no -- men Do -- mi --
+  ni, lau --
+  da -- te,
+  ex -- cel -- sus su -- per %10
+  o -- mnes gen -- tes __
+  Do --
+  mi -- nus,
+  et su -- per
+  coe -- los, et su -- per %15
+  coe -- los glo -- ri -- a e --
+  ius, lau --
+  da -- te no -- men Do -- mi --
+  ni.
+  %20
+  Quis si -- cut Do -- mi -- nus
+  De -- us no -- ster,
+  qui in al -- tis ha -- bi -- tat, et hu --
+  mi -- li -- a re -- spi -- cit in coe -- lo,
+  in coe -- lo et in ter -- ra, %25
+  lau -- da -- te, lau -- da -- te,
+  lau -- da -- te pu -- e -- ri
+  Do -- mi -- num,
+  no -- men Do -- mi -- ni.
+  Su -- sci -- tans a %30
+  ter -- ra in -- o -- pem, et __ de
+  ster -- co -- re e -- ri -- gens,
+  e -- ri -- gens, ster -- co -- re
+  e -- ri -- gens pau -- pe -- rem,
+  %35
+  ut col -- lo -- cet
+  e -- um cum prin -- ci --
+  pi -- bus, cum prin -- ci --
+  pi -- bus,
+  cum prin -- ci -- pi -- bus %40
+  po -- pu -- li su -- i, sit
+  no -- men Do -- mi -- ni be --
+  ne -- di -- ctum, lau --
+  da -- te, lau -- da -- te,
+  qui ha -- bi -- ta -- re fa -- cit %45
+  ste -- ri -- lem in do -- mo, ma -- trem
+  fi -- li -- o -- rum, fi -- li --
+  o -- rum lae -- tan -- tem, lae --
+  tan -- tem, lae --
+  tan -- tem, sit %50
+  no -- men Do -- mi -- ni be -- ne --
+  di -- ctum ex hoc nunc et
+  us -- que in sae -- cu --
+  lum.
+  %55
+  Glo -- ri -- a Pa -- tri et
+  Fi -- li -- o,
+  si -- cut e -- rat in prin --
+  ci -- pi -- o et
+  nunc et sem -- per %60
+  et __ in __ sae -- cu -- la
+  sae -- cu -- lo -- rum, a --
+  men, glo --
+  ri -- a Pa -- tri,
+  glo -- ri -- a Fi -- li -- %65
+  o et Spi -- ri -- tu -- i, Spi --
+  ri -- tu -- i
+  San -- cto, a --
+  men, et in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, %70
+  a -- men, a -- men,
+  a -- men, a -- men,
+  a -- men, a -- men,
+  a -- men,
+  a -- men. %75 finis
+}

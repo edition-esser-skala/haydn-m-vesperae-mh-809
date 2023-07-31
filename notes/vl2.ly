@@ -371,3 +371,86 @@ BeatusViolinoII = {
     h-! h-! h-!\pp g4 r8\fermata \bar "|." %94 finis
   }
 }
+
+LaudateViolinoII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoLaudate
+    d8-!\p es-! f-! d-! g-! f-! es-! g-!
+    d-! d-! es( c) b f'( es d)
+    c4 f r8 \once \slurDashed b,( c d)
+    c4 f r8 c'-! c( b)
+    a a c2 b4~ %5
+    b a2 g4~
+    g f f8 f e e
+    f a a16 g a f a8 a a16 g a f
+    f8 f e g a4 a16 g a f
+    a4 a16 g a f f8 f e16 f g e %10
+    f8 f r a r c r f
+    r c, b a g4 c
+    r8 c e f b g r g
+    f16 g a b c2 b4~
+    b a2 g4~ %15
+    g f8 f f f e e
+    f c r c' c f, r b
+    g e r f d' d' e, e
+    f16-!\f c-! a-! c-! f-! c-! a'-! f-! c' c, c c f c a' c,
+    c' c, c c f f, f f d' f f f c e e e %20
+    f8 a,4 f8 r a4 f8
+    r g'4 g,8 f16( a) a( c) c( b) b( a)
+    g8 b4 d8 r g,4 b8
+    r a'4 a,8 b16-! d-! b-! d-! g d b' g
+    d' d, d d g d b' g d' d, d d g d b' g %25
+    d' d, d d g d g b a a, a a d a f'! d
+    a' a, a a d a f' d a' a, a a d' d, d d
+    \kneeBeam d' d,, d d d' cis d d, e a cis a e' cis e a
+    f f, f f d' d' d d a a, a a cis e a, g
+    f8 d'4 f,8 e16 d e f e8 g' %30
+    g16 e cis e a, b g a f8 d r a'
+    h, d' e, e' e16 d e f e g,! a g
+    f a g b! a8 f d16 d' e f g a b d,
+    cis8 e a g f f16 e d c h a
+    gis8 e'4 h16 gis a8 a'4 e16 cis %35
+    d8 d'4 a,8 g16 a b g g' a b g
+    a, e' e e a f g e f d a d f,8 d'
+    f16 d g, d' g es f d es c g c es,8 c'
+    es16 g c, g' f d es c d b f d f' d b f
+    g b es g g8 g a,16 f' c a a8 a %40
+    b16 f' b, f as f d b b' g' es b des b g es
+    c' g' c, g b g e c c' a' f c es c a f
+    d' a' d, a c a fis d d' b' g d g d b g
+    b' fis g a b g b cis, d d' cis d \once \slurDashed cis( d) a fis
+    d^\critnote d, d d a' d, d d g d d d b' d, d d %45
+    g cis, cis cis g' g, g g d' fis a d fis d a' fis
+    d' d, d d a' d, d d g d d d b' d, d d
+    g g, g g g' g, g g a a' fis cis d a fis d
+    g' d b' fis g g, b g d' d' a fis a fis d a'
+    b fis g a b cis, b' cis, d8 d, d d %50
+    <d c'> d a d <g, d' b'> d' b d
+    <fis a> d <fis a> d <d b'> d <d b'> d
+    <d c'> d fis d <g, d' b'>4 <d' b' g'>
+    <d a' fis'> <d b' g'> <d a' fis'>8 d <g d' b'>4
+    <fis d' a'>8 d'16 cis d8 d, <c! es! a>4\fz <a f' c'>\fz %55
+    f'8-!\p es-! d-! f-! g-! f-! es-! g-!
+    d-! d-! es( c) b \once \slurDashed f'( es d)
+    c4 f r8 \once \slurDashed b,( c d)
+    c4 f r8 c'-! c( b)
+    a a c2 b4~ %60
+    b a2 g4~
+    g f f8 f e e
+    f a a16 g a f a8 a a16 g a f
+    f8 f e g a4 a16 g a f
+    a4 a16 g a f f8 f e16 f g e %65
+    f8 f r a r c r f
+    es!\f es c16 b c a f8 f c' es
+    f d f,16 es f d c8 a' c es
+    f16 d d d f, d' d d b8-! a-! g-! f-!
+    es-! d-! c-! b-! a16 es' es es f d' d d %70
+    g,8 g16 es f d es c d8 d'16( b) b( f) f( d)
+    es es' es es c es es es f, d' d d d8 d16( b)
+    c es es es es c a a f b' b( f) f( d) d( b)
+    <f c'>8 f <f d'> f <f es'> f <b, f' d'> <b f'>
+    g'16 c c c a c c c <d f, b,>4 q %75
+    <b f b,> <b' d, f, b,> b,, r\fermata \bar "|." %76 finis
+  }
+}

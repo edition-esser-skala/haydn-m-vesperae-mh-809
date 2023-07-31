@@ -497,3 +497,153 @@ BeatusTenoreLyrics = \lyricmode {
   a --
   men. %94 finis
 }
+
+LaudateTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key b \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1
+    r2 r8 \mvTr d\pE^\solo es f
+    es c16 c c8 c b f' es d
+    es16([ c)] c8 c4 b8 c c b
+    a4 r r2 %5
+    R1*2
+    r8 c c c16 c f8.([ a,16)] a4
+    r g8 g f f a f'
+    f4 a, r2 %10
+    r r4 c
+    c8([ f)] e d c b a g
+    f4 r r2
+    R1*3 %16
+    r2 d'4 d8 d
+    c e f4 f8 f e4
+    f r r2
+    R1 %20
+    \mvTr c4\fE^\tutti c8 c d4 d8 f
+    d d c4 c r
+    b8 b b d b8. b16 b4
+    es!8 es d d16 d d8 b d r
+    r fis g d a fis' g d %25
+    r fis g d r cis d d
+    r a4 a8 a cis d f
+    f4 d e r
+    d d cis r
+    R1 %30
+    a4 a f' f8 f
+    gis,4 gis8 gis a([ e')] e a,
+    f g a4 r8 d g g
+    g4 f8 e d8. d16 h8 h
+    e4. d8 c!([ h)] c([ cis)] %35
+    d([ e)] f4 d8. d16 d4
+    r r8 a a([ d)] a4
+    r8 g g4~ g8[ c] es! es
+    es es d c b4 d8 f
+    es([ b]) b es es4 es8 es %40
+    f b, r f es g b8. b16
+    c4 r8 g([ f)] a! c4
+    d r8 a g([ b)] d d
+    g, b r cis d16 d d,8 r4
+    a'2 g4 g %45
+    b2 a4 d,8 d
+    d fis a a g g g g
+    g g g4 fis r8 a
+    e2 fis4 r8 a
+    e'2 a,4 d, %50
+    d d d8. d16 d4
+    d8. d16 d8 d d4 d
+    d d d'4. d8
+    d4 r r2
+    R1*2 %56
+    r2 r8 \mvTr b([\pE^\solo c)] d
+    es8. c16 c8 c b([ f')] es d
+    es c c c b c16 c c8([ b)]
+    a4 r r2 %60
+    R1*2
+    r8 c c c f8.([ a,16)] a4
+    r r8 g( f4) a8 f'
+    f8. f16 a,4 r2 %65
+    r r4 \mvTr c8\fE^\tutti a
+    c f, f f c'4 es!8 es
+    f8.([ es16)] d8 f,( c'4) es
+    f8 d r c b a16 a g8 f
+    c'([ d c)] b c4 d %70
+    es8 c d([ c)] d f([ es)] d
+    c2 d8 f([ es)] d
+    c2 d4 d
+    c b c d
+    es8 c a4 b r %75
+    R1\fermata \bar "|." %76 finis
+  }
+}
+
+LaudateTenoreLyrics = \lyricmode {
+  Sit no -- men %2
+  Do -- mi -- ni be -- ne -- di -- ctum, ex hoc
+  nunc et us -- que in sae -- cu --
+  lum. %5
+
+  A so -- lis, a so -- lis %8
+  or -- tu us -- que ad oc --
+  ca -- sum %10
+  lau --
+  da -- bi -- le no -- men Do -- mi --
+  ni.
+
+  Sit no -- men %17
+  Do -- mi -- ni be -- ne -- di --
+  ctum.
+
+  Quis si -- cut Do -- mi -- nus %21
+  De -- us no -- ster,
+  qui in al -- tis ha -- bi -- tat,
+  et hu -- mi -- li -- a re -- spi -- cit
+  in coe -- lo et in ter -- ra, %25
+  in coe -- lo, in ter -- ra?
+  Su -- sci -- tans a ter -- ra
+  in -- o -- pem,
+  in -- o -- pem,
+  %30
+  et de ster -- co -- re
+  e -- ri -- gens, e -- ri -- gens
+  pau -- pe -- rem, lau -- da -- te
+  pu -- e -- ri Do -- mi -- num, lau --
+  da -- te no -- men, %35
+  no -- men Do -- mi -- ni,
+  lau -- da -- te,
+  ut col -- lo -- cet
+  e -- um cum prin -- ci -- pi -- bus
+  po -- pu -- li, po -- pu -- li %40
+  su -- i, sit no -- men Do -- mi --
+  ni be -- ne -- di --
+  ctum, ex hoc nunc et
+  us -- que in sae -- cu -- lum,
+  qui ha -- bi -- %45
+  ta -- re fa -- cit
+  ste -- ri -- lem in do -- mo, ma -- trem
+  fi -- li -- o -- rum lae --
+  tan -- tem, lae --
+  tan -- tem, lau -- %50
+  da -- te pu -- e -- ri
+  Do -- mi -- num, lau -- da -- te
+  no -- men Do -- mi --
+  ni.
+
+  Et __ Spi -- %57
+  ri -- tu -- i, Spi -- ri -- tu -- i
+  San -- cto, et Spi -- ri -- tu -- i San --
+  cto, %60
+
+  glo -- ri -- a Pa -- tri, %63
+  glo -- ri -- a
+  Fi -- li -- o, %65
+  et Spi --
+  ri -- tu -- i, Spi -- ri -- tu -- i
+  San -- cto, a -- men,
+  a -- men, in sae -- cu -- la sae -- cu --
+  lo -- rum, a -- men, %70
+  a -- men, a -- men, a -- men,
+  a -- men, a -- men,
+  a -- men, a --
+  _ _ _ men,
+  a -- men, a -- men. %75 finis
+}

@@ -371,3 +371,86 @@ BeatusViola = {
     d r d,\pp d4 r8\fermata \bar "|." %94 finis
   }
 }
+
+LaudateViola = {
+  \relative c' {
+    \clef alto
+    \key b \major \time 4/4 \tempoLaudate
+    r4 b\p es, r8 c'
+    f,4 f f2
+    r4 f b f
+    r f b8 a b d
+    f4 f f8 d4 g8~ %5
+    g c,4 f d e,8
+    f4 a c8 c c c
+    a4 f d d'~
+    d8 d c c f,2
+    d4 d'4. d8 c c %10
+    c c r f r a r c
+    r a g f e d c b
+    a a' g f e d c b
+    a c f4. d4 g8~
+    g e c f4 d c8 %15
+    c4 f,8 a c c c c
+    c4 a b8 b r g'
+    c, c r d b g c c
+    a\fE f' f, f' g c,4 f8
+    g c,4 c8 b d c c %20
+    f f, f' e d f16 e d8 c
+    b g c e f f, f' fis
+    g g, g' f es g16 f es8 d
+    c a d fis g g, b' g
+    fis c' b g fis c' b g %25
+    fis c' b g cis, g' f d
+    cis g' f d cis g' f d
+    b b' b, b' a, a' a, a'
+    gis2 a8 a a, cis
+    d c b a g f g e %30
+    a g f e d d' h d
+    e e, e' d c! a cis a
+    d e f d g f e f16 g
+    a8 a, f' e d d h d
+    e e, e' d c! e a g! %35
+    f e d c! b! a g e
+    a cis a cis d f d f
+    g, h g h c es! c es
+    f, a f a b! d b d
+    es4 es c' c8 c %40
+    d, d d d es es es es
+    e e e e f f f f
+    fis fis fis fis g g g g
+    es! es es es d16 d' cis d cis( d) a fis
+    d8 d d, d d d d d %45
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d d d d
+    d d d d d4 r %50
+    r c' r b
+    r a r g
+    r fis g8 g'16 fis g d b' g
+    d' d, fis d g d b' g d d fis d g d b' g
+    d8 d'16 cis d8 d, <f! a,>8\fz q <es! c>\fz <es c> %55
+    r4 b\p es, r8 c'
+    f,4 f f2
+    r4 f b f
+    r f b8 a b d
+    f4 f4. d4 g8~ %60
+    g c,4 f d e,8
+    f4 a c8 c c c
+    a4 f d d'~
+    d8 d c c f,2
+    d4 d'4. d8 c c %65
+    c c r f r a r c
+    a,4\f a8 a c c f, f'
+    f4 b,8 b f c' f, f'
+    f b,4 a'8 g-! f-! es-! d-!
+    c-! b-! a-! g-! c f, d' f %70
+    c es16 g f8 f, f f4 <b d,>8
+    c c f c f f,4 d8
+    ges' ges f c f f4 f8
+    f16 f f f f f f f f f f f f f f f
+    g8 es4 es8 d b'-! f-! d-! %75
+    b4 <f d' b'> b r\fermata \bar "|." %76 finis
+  }
+}

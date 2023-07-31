@@ -624,5 +624,96 @@ BeatusSopranoLyrics = \lyricmode {
   men. %94 finis
 }
 
-% Ex -- or -- tum est in te -- ne -- bris lu -- men re -- ctis:
-%   Mi -- se -- ri -- cors et mi -- se -- ra -- tor et iu -- stus.
+LaudateSoprano = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \autoBeamOff \tempoLaudate
+    R1*20 %20
+    \mvTr f'4\fE^\tutti f8 f f4 a,8 a
+    g b b4 a r
+    b d g b,8 b
+    a c c8. c16 b8 r d d
+    d16 d d,8 r d' d4 d8 d %25
+    d16 d d,8 r d' e a, r a
+    a cis d f e a, r a
+    d2 cis4 r8 a
+    f'4( e) e r
+    R1*4 %33
+    a,4. a8 f'4 f
+    gis,8 gis gis8. gis16 a4 r %35
+    r2 r8 d([ g)] g
+    g4 f8 e d4 f8 f
+    f4( es8) d c4 r
+    r2 b
+    g'4 g8 g a,2 %40
+    b4 r8 b4 b8 des des
+    c4 r8 c4 c8 es! es
+    d!4 r8 d4. b8 g'
+    g cis, r cis d d, r4
+    c'2 b4 b %45
+    g2. fis4
+    d d b'8. b16 b8 b
+    cis,2 d4 r8 a'(
+    b2) a4 r8 d(
+    cis4) cis d d, %50
+    d d8 d d4 d
+    d d d d
+    d4 d8 d b'2
+    a4 r r2
+    R1*12 %56
+    r8 \mvTr f'4\fE^\tutti f8 f f a, a
+    b8. c16 d8 f f4 a,
+    b8 d d f es([ d)] c b
+    a([ g f)] es' es4 d %70
+    c_( b8[ a)] b4 r
+    es( a,) b r
+    es( a,) b r
+    es d a( b
+    c2) d4 r %75
+    R1\fermata \bar "|." %76 finis
+  }
+}
+
+LaudateSopranoLyrics = \lyricmode {
+  Quis si -- cut Do -- mi -- nus %21
+  De -- us no -- ster,
+  qui in al -- tis, in
+  al -- tis ha -- bi -- tat, et hu --
+  mi -- li -- a, hu -- mi -- li -- a %25
+  re -- spi -- cit in coe -- lo, in
+  coe -- lo et in ter -- ra, in
+  coe -- lo, in
+  ter -- ra?
+
+  Su -- sci -- tans a %34
+  ter -- ra in -- o -- pem, %35
+  et __ de
+  ster -- co -- re e -- ri -- gens
+  pau -- pe -- rem,
+  ut
+  col -- lo -- cet e -- %40
+  um cum prin -- ci -- pi --
+  bus, cum prin -- ci -- pi --
+  bus po -- pu -- li
+  su -- i lau -- da -- te,
+  qui ha -- bi -- %45
+  ta -- re
+  fa -- cit ste -- ri -- lem in
+  do -- mo, ma --
+  trem, ma --
+  trem fi -- li -- %50
+  o -- rum lae -- tan -- tem,
+  ma -- trem fi -- li --
+  o -- rum lae -- tan --
+  tem.
+
+  Si -- cut e -- rat in prin -- %67
+  ci -- pi -- o et nunc et
+  sem -- per et in sae -- cu -- la
+  sae -- cu -- lo -- rum, %70
+  a -- men,
+  a -- men,
+  a -- men,
+  a -- men, a --
+  men. %75 finis
+}

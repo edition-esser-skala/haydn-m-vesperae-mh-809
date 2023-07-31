@@ -312,3 +312,11 @@ BeatusOboeII = {
     h d h\pp g4 r8\fermata \bar "|." %94 finis
   }
 }
+
+LaudateOboeII = {
+  \relative c' {
+    \clef treble
+    \key b \major \time 4/4 \tempoLaudate
+    
+  }
+}
