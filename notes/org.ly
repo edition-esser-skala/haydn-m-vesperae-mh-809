@@ -794,33 +794,33 @@ LaudateOrgano = {
       d~
       d~
       \once \tieDashed d2~ d4
-     } >> r %50
-     c' r b r
-     a r g r
-     fis r8 fis g g'16 fis g d b' g
-     d' d, fis d g-\soloE d b' g d d fis d g d b' g
-     d8 d'16 cis d8 d, c4\fz f,!\fz %55
-     d'8\p c b d es d c es
-     f f, f' es d d c b
-     a f' r a, b d c b
-     a f' r a, b a b d
-     f f, a f b d g g, %60
-     a c f f, g f e c'
-     f, a d h c c c c
-     f, f' r f d d' r d,
-     b b c c f, f' r f
-     d d' r d, b b c c %65
-     f, r f r f r f r
-     \mvTr f'\fE-\tutti f, r f' es! d es c
-     d b r d es d es c
-     d b b' a g f es d
-     c b a g f a' b d, %70
-     es c f f, b b b b
-     b b b b b b b b
-     b b b b b b b b
-     a a b b es es d d
-     es g f f, b b' f d %75
-     b4 b b r\fermata \bar "|." %76 finis
+    } >> r %50
+    c' r b r
+    a r g r
+    fis r8 fis g g'16 fis g d b' g
+    d' d, fis d g-\soloE d b' g d d fis d g d b' g
+    d8 d'16 cis d8 d, c4\fz f,!\fz %55
+    d'8\p c b d es d c es
+    f f, f' es d d c b
+    a f' r a, b d c b
+    a f' r a, b a b d
+    f f, a f b d g g, %60
+    a c f f, g f e c'
+    f, a d h c c c c
+    f, f' r f d d' r d,
+    b b c c f, f' r f
+    d d' r d, b b c c %65
+    f, r f r f r f r
+    \mvTr f'\fE-\tutti f, r f' es! d es c
+    d b r d es d es c
+    d b b' a g f es d
+    c b a g f a' b d, %70
+    es c f f, b b b b
+    b b b b b b b b
+    b b b b b b b b
+    a a b b es es d d
+    es g f f, b b' f d %75
+    b4 b b r\fermata \bar "|." %76 finis
   }
 }
 

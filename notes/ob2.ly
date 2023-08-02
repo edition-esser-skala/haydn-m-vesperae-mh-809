@@ -317,6 +317,65 @@ LaudateOboeII = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoLaudate
-    
+    R1*10 %10
+    a'4\p a2 a4
+    a r r2
+    R1*6 %18
+    r8 c\f c4 r8 e f c
+    r e f f f f e4\trill %20
+    f a,2 f4
+    g r8 g f4 r8 d
+    d b' b a g4 g
+    g r8 a g d g b
+    d2 d,4 d %25
+    d r8 b' a4 a8 d
+    e?4 r r8 a, a a
+    a4 g a8 a cis a
+    d d d4 cis8 e,4 e8
+    d4 r r2 %30
+    R1*2
+    d'2 d
+    cis d4 r
+    gis,2 a4 e %35
+    r d' d g
+    r8 a, f' e d4 d~
+    d8 d es d c4 c~
+    c8 c d c b4 r
+    r2 a %40
+    b4 f es b'~
+    b g f c'~
+    c a g b
+    g2 fis?8 fis4 fis8
+    a2 g %45
+    e d
+    d'8 d d d b'8. b16 b8 b
+    cis,4 cis8 cis d4 fis,8 a
+    g2 fis4 fis'8 fis
+    e2 d4 fis %50
+    r a, r g
+    r fis' r g
+    r c, b8 b b4\trillE
+    a b a g
+    fis r a8\fz a es'!\fz es %55
+    d4 r r2
+    r r8 f,\p a b
+    c2( b8) f' es d
+    es4 c b r
+    r2 d %60
+    c r4 b(
+    a) a r g
+    a r r2
+    R1*2 %65
+    a4 c f,2
+    a4 r c2\sf
+    f4 d8( f) r4 \once \slurDashed f8( es)
+    d4 r r r8 b-\parenthesize-!
+    a-! b-! a-\parenthesize-! r r c( d) b-\parenthesize-! %70
+    r es d c r d d r
+    r es es r r d( b) r
+    r es( c) r r d f d
+    r c r b r es r d
+    r4 es d b %75
+    f d' d, r\fermata \bar "|." %76 finis
   }
 }

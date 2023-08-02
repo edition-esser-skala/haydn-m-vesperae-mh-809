@@ -264,7 +264,7 @@
   % }
   \bookpart {
     \section "4" "Laudate pueri"
-    % \addTocEntry
+    \addTocEntry
     \score { %\articulate
       <<
         \new StaffGroup <<

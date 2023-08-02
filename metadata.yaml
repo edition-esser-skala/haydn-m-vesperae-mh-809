@@ -4,7 +4,7 @@ composer:
 title: Vesperæ
 id: MH 809
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -17,5 +17,5 @@ sources:
     principal: true
 imslp:
 parts:
-  cor12: Corno I, II in
+  cor12: Corno I, II in D
   ottoni: Clarino I, II in D\\Timpani in D–A

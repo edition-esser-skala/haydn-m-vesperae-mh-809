@@ -317,6 +317,65 @@ LaudateOboeI = {
   \relative c' {
     \clef treble
     \key b \major \time 4/4 \tempoLaudate
-    
+    R1*10 %10
+    f'4\p f2 f4
+    f r r2
+    R1*6 %18
+    r8 a\f a4 r8 g f a
+    r g f c' d d g,4\trill %20
+    f f2 a,4
+    d r8 b a4 r8 d
+    b g' g2 b,4
+    es r8 c b d g b
+    d4 d, d d %25
+    d r8 d e4 d8 f!
+    a4 r r8 e a f
+    d d d4 cis8 cis e cis
+    f4 e e8 a,4 g8
+    f4 r r2 %30
+    R1*2
+    f'2 e
+    e4 f8 g f4 r
+    d c!8 h e2 %35
+    r4 f g b!
+    r8 a, a' g f4 f~
+    f8 f g f es!4 es~
+    es8 es f es d4 r
+    r2 f~ %40
+    f4 as, g g'~
+    g b, a! a'~
+    a c, b d
+    cis2 d8 a4 a8
+    c!2 b %45
+    g fis
+    d'8 d d d b'8. b16 b8 b
+    cis,4 cis8 cis d4 d8 c
+    b2 a4 a'8 a
+    cis2 d4 a %50
+    r fis r g
+    r c! r b
+    r a g8 g g4\trill
+    fis g fis b
+    a r es!8\fz es a\fz a %55
+    b4 r r2
+    r r8 b,\p c d
+    es2( d8) b' a b
+    c4 es, d r
+    r2 c'4 b~ %60
+    b a r g~
+    g f r e
+    f r r2
+    R1*2 %65
+    f2 f
+    es!4 r a2\sf
+    b4 f8( b) r4 c8( a)
+    b4 r r r8 d,-!
+    c-! g'-! f-! r r es( f) d-! %70
+    r c' b a r b( f) r
+    r \once \slurDashed a( c) r r f,( d) r
+    r a'( c) r r f, b d
+    r es, r d r a' r b
+    r4 a b f %75
+    f b b, r\fermata \bar "|." %76 finis
   }
 }

@@ -386,6 +386,81 @@ LaudateFagotto = {
   \relative c {
     \clef bass
     \key b \major \time 4/4 \tempoLaudate
-    
+    b8\pE^\critnote c d b es d c es
+    f f, f' es d d c b
+    a f' r a, b d c b
+    a f' r a, b a b d
+    f f, a f b d g g, %5
+    a c f f, g f e c'
+    f, a d h c c c c
+    f, f' r f d d' r d,
+    b! b c c f, f' r f
+    d d' r4 r2 %10
+    c4 c2 c4
+    c8 a g f e d c b
+    a a' g f e d c b
+    a g f a b d g g,
+    a c f f, g f e c' %15
+    f, a d h c c c c
+    f, f' r a, b d g f
+    e c f d b g c c
+    f\f f, r f' e b' a f
+    e b' a a, b g c c %20
+    f f, f' e d f16 e d8 c
+    b g c e f f, f' fis
+    g g, g' f es g16 f es8 d
+    c a d fis g g, b' g
+    fis c' b g fis c' b g %25
+    fis c' b g cis, g' f d
+    cis g' f d cis g' f d
+    b b' b, b' a, a' a, a'
+    gis2 a8 a a, cis
+    d c b a g f g e %30
+    a g f e d d' h d
+    e e, e' d c! a cis a
+    d e f d g f e f16 g
+    a8 a, r a d d' h d
+    e e, e' d c! h a g! %35
+    f e d c! b! a g e
+    a cis a cis d f d f
+    g, h g h c es! c es
+    f, a f a b d b d
+    es4 es c' c8 c %40
+    d, d d d es es es es
+    e e e e f f f f
+    fis fis fis fis g g g g
+    es! es es es d16 d' cis d cis( d) a fis
+    d8 d d d b'8. b16 b8 b %45
+    cis,4 cis8 cis d d d' a
+    fis c' a fis g d d d
+    d d, d d d d d d
+    d d d d d d d d
+    d d d d d4 d' %50
+    r c r b
+    r a r g
+    r fis g8 g'16 fis g d b' g
+    d' d, fis d g d b' g d d fis d g d b' g
+    d8 d'16 cis d8 d, es'!16(\sfz d) c-! b-! a-!-\dolce g-! f-! es-! %55
+    d8\p c b d es d c es
+    f f, f' es d d c b
+    a f' r a, b d c b
+    a f' r a, b a b d
+    f f, a f b d g g, %60
+    a c f f, g f e c'
+    f, a d h c c c c
+    f, f' r f d d' r d,
+    b b c c f, f' r f
+    d d' r4 r2 %65
+    c4 c2 c4
+    f,8\fE f, r f' es! d es c
+    d b r d es d es c
+    d b b' a g f es d
+    c b a g f a' b d, %70
+    es c f f, b b b b
+    es'4 a, b8 b, b b
+    es'4 a, b8 b, b b
+    a4 b es d
+    es8 g f f, b b' f d %75
+    b4 b b r\fermata \bar "|." %76 finis
   }
 }
