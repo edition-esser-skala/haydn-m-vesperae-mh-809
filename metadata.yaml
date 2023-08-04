@@ -1,10 +1,11 @@
 composer:
   last: Haydn
-  first: Johann MIchael
+  first: Johann Michael
 title: Vesperæ
-id: MH 809
+subtitle: arranged by Johann Wittmann
+id: MH 809*
 genre: vesper
-scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag, 2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 fag,\\2 cor (D), 2 clno (D), timp (D–A), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
