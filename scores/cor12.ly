@@ -6,21 +6,42 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "2" "Confitebor"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Corno" "C" ""
+            \set GrandStaff.instrumentName = \transposedName "Corno" "D" ""
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxCornoI
+              \ConfiteborCornoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxCornoII
+              \ConfiteborCornoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \section "3" "Beatus vir"
+    \addTocEntry
+    \paper { page-count = #1 }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \BeatusCornoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \BeatusCornoII
             }
           >>
         >>

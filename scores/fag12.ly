@@ -1,19 +1,19 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name (markup #:center-column ("fag" "1, 2")))
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Dixit Dominus"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DixitOrgano
+          \set Staff.instrumentName = "Fagotto I, II"
+          \DixitFagotto
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
+        \new Staff { \ConfiteborFagotto }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \BeatusFagotto }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
+        \new Staff { \LaudateFagotto }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \MagnificatFagotto }
       >>
     }
   }

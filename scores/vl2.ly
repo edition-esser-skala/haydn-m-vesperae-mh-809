@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DixitOrgano
+          \set Staff.instrumentName = "Violino II"
+          \DixitViolinoII
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
+        \new Staff { \ConfiteborViolinoII }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \BeatusViolinoII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
+        \new Staff { \LaudateViolinoII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \MagnificatViolinoII }
       >>
     }
   }

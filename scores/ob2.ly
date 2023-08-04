@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "b")
+#(define option-instrument-name "ob 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,8 +12,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Bassi"
-          \DixitOrgano
+          \set Staff.instrumentName = "Oboe II"
+          \DixitOboeII
         }
       >>
     }
@@ -23,7 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ConfiteborOrgano }
+        \new Staff { \ConfiteborOboeII }
       >>
     }
   }
@@ -32,7 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \BeatusOrgano }
+        \new Staff { \BeatusOboeII }
       >>
     }
   }
@@ -41,7 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \LaudateOrgano }
+        \new Staff { \LaudateOboeII }
       >>
     }
   }
@@ -50,7 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \MagnificatOrgano }
+        \new Staff { \MagnificatOboeII }
       >>
     }
   }

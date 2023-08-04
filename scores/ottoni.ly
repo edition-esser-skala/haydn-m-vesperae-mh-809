@@ -7,28 +7,76 @@
 
 \book {
   \bookpart {
-    \section "1" "First"
+    \section "1" "Dixit Dominus"
     \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \transposedName "Clarino" "C" ""
+            \set GrandStaff.instrumentName = \transposedName "Clarino" "D" ""
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxClarinoI
+              \DixitClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxClarinoII
+              \DixitClarinoII
             }
           >>
         >>
         \new Staff {
-          \set Staff.instrumentName = \transposedTimp "C" "" "G" ""
-          \xxxTimpani
+          \set Staff.instrumentName = \transposedTimp "D" "" "A" ""
+          \DixitTimpani
         }
+      >>
+    }
+    \tacet "section" "Confitebor · Beatus vir"
+  }
+  \bookpart {
+    \section "4" "Laudate pueri"
+    \addTocEntry
+    \paper {
+      system-system-spacing.basic-distance = #16
+      system-system-spacing.minimum-distance = #16
+      systems-per-page = #6
+      page-count = #1
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \LaudateClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \LaudateClarinoII
+            }
+          >>
+        >>
+      >>
+    }
+  }
+  \bookpart {
+    \section "5" "Magnificat"
+    \addTocEntry
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \MagnificatClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \MagnificatClarinoII
+            }
+          >>
+        >>
+        \new Staff { \MagnificatTimpani }
       >>
     }
   }

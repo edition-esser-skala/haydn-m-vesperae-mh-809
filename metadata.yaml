@@ -1,7 +1,7 @@
 composer:
   last: Haydn
   first: Johann Michael
-title: Vesperæ
+title: Vesperæ de Dominica
 subtitle: arranged by Johann Wittmann
 id: MH 809*
 genre: vesper
@@ -16,7 +16,8 @@ sources:
     url: https://gallica.bnf.fr/ark:/12148/btv1b100732158
     license: custom (free for non-commercial purposes)
     principal: true
-imslp:
+imslp: Vesperae_de_Dominica,_MH_809*_(Haydn,_Michael)
 parts:
+  fag12: Fagotto I, II
   cor12: Corno I, II in D
   ottoni: Clarino I, II in D\\Timpani in D–A
