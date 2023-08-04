@@ -464,3 +464,157 @@ LaudateFagotto = {
     b4 b b r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatFagotto = {
+  \relative c {
+    \clef bass
+    \key d \major \time 4/4 \tempoMagnificat
+    d8\fE d'16. a32 a16. fis32 fis16. d32 e8 e g e
+    cis cis a a a a a a'
+    d,4 d' r16. d,32 d'16. a32 fis16. a32 fis16. d32
+    e8( g) e( g) a cis, a cis
+    r16. a32 a'16. e32 cis16. e32 cis16. a32 d8 d fis d %5
+    r16. d32 fis16. d32 fis8 d' r16. h,32 d16. h32 d'8 h
+    fis fis d d a a a a \noBreak
+    a a a a\pE a4 r
+    \tempoMagnificatB d8\f a' fis d d' d, d' cis \noBreak
+    h fis d h h' h, h' a %10
+    g d h g g' d h' g
+    fis a d a fis a\p fis d
+    << {
+      a'4 h8 a a4 d8 fis
+      e4 g fis8 d a fis
+    } \\ {
+      g2 fis4 a8 d
+      cis4 e d8 d a fis
+    } >>
+    d4 r d r8 fis %15
+    g a h cis d a\fE fis d
+    h h h h h h h h
+    a a' a, a a4 r
+    <a a'>2 q~
+    q4 q q q %20
+    a'2 a,
+    a8 a a a a a a a
+    cis cis cis cis cis cis cis cis
+    d4 fis d a
+    h d' h fis %25
+    g e a a,
+    d8 a d a fis' d fis d
+    g e g e cis a cis a
+    d a' fis a d a fis d
+    g g e e a a a, a %30
+    d4 d' r8 d, fis d
+    g4 r8 g a a a, a
+    d4 r8 fis\p e cis a cis
+    d4 h' fis g
+    d r r2 %35
+    cis8(-\dolce e a cis) e4 a,,
+    d r h8 h d d
+    e4 r \once \slurDashed a8( e cis a)
+    d4 r e e
+    a, r cis8( e a cis) %40
+    e4 a, e e
+    a, r e' r
+    a e' cis a
+    e e' gis, e
+    a8 a, cis e a,( cis) e-! a-! %45
+    e4 e e e
+    a, a-! cis-! e-!
+    a, a' r g!
+    fis d r fis
+    cis a cis a %50
+    d d' d, d
+    g h d g,
+    fis a fis d
+    cis e cis a
+    d g, a a %55
+    d d' d, d
+    d-! fis-! a-! a,-!
+    d-! r fis g
+    fis a fis d
+    cis e cis a %60
+    d d' r d,
+    e fis g h,
+    c a d d
+    g, g' r e
+    dis fis dis h %65
+    e4 e, r8 fis' e d!
+    cis d e d cis h cis a
+    d4 d' d,8 fis a d
+    d,4 d' d, d'
+    h, r h r %70
+    a r a r
+    a a' r e
+    a, a'2\f a4
+    a2 a
+    a,4 a' r a^\critnote %75
+    a, a'2 a4
+    b,8 b' b, b b b' b, b
+    a a' a, a cis a' cis, cis
+    d a' d, a' fis a fis a
+    e a d, a' cis, a' cis, a' %80
+    d, d' d, d d4 d\p
+    fis,2. d'4
+    g,2. d'4
+    a2. d4
+    h8 h\f h h h h h h %85
+    a a a a e' e e e
+    a, a' e' cis a e cis a
+    r d d' cis h4 h
+    r8 h, h' a g4 g
+    r8 g, g' fis e4 g %90
+    a r a, r
+    a r a r
+    r8 d d' cis h4 h
+    g e8 g a4 a,
+    d r d-!\p d-! %95
+    d-! r a' a,
+    d'8\f a fis d d' d, d' cis
+    h fis d h h' h, h' a
+    g d h g g' d h' g
+    fis a d a fis a\p fis d %100
+    << {
+      a'4 h8 a a4 d8 fis
+      e4 g fis8 d a fis
+    } \\ {
+      g2 fis4 a8 d
+      cis4 e d8 d a fis
+    } >>
+    d4 r d r8 fis
+    g a h cis d a\f fis d
+    h h h h h h h h %105
+    a a' a, a a4 r
+    a2 a~
+    a4 a a a
+    a2 a
+    a'8 a a a a a a a %110
+    cis, cis cis cis cis cis cis cis
+    d4 fis d a
+    h8 d a d g, g' a, a'
+    d, d' fis, d' g, d' a d
+    h d g, e a a a, a' %115
+    h4 h, r d\p
+    fis,2. d'4
+    g,2. d'4
+    gis,8\f gis gis gis gis gis gis gis
+    a a a a cis cis cis cis %120
+    d d fis fis a a a, a
+    d4 r fis r
+    a a, a2~
+    a4 a8. a16 a4 a
+    h h' fis d %125
+    h a g gis
+    a8 a a a a a a a
+    d4 r r8 fis a cis
+    d4 r r8 fis, a cis
+    d4 r r2 %130
+    r8 d, h' a g e a a,
+    d fis a d a, a' a a
+    d, fis a d a, a' a a
+    d,4 d'8 d d a a fis
+    a fis fis d fis d d a %135
+    d4 r d' d,
+    d r r2\fermata \bar "|." %137 finis
+  }
+}

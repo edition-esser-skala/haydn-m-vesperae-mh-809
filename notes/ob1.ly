@@ -379,3 +379,146 @@ LaudateOboeI = {
     f b b, r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatOboeI = {
+  \relative c' {
+    \clef treble
+    \key d \major \time 4/4 \tempoMagnificat
+    fis'2\f g4 h8 g
+    e4 g e g8 cis
+    d a fis4 r fis
+    g fis16( e d cis) g'4 r
+    r8 cis, e g g4 fis %5
+    r8 a4 fis8 r d'4 fis,8
+    r a4 fis8 r a fis r \noBreak
+    r4 e8-!\pE d-! d( cis) r4
+    \tempoMagnificatB fis\f r fis2 \noBreak
+    d'4 r fis,2 %10
+    h4 r d,2
+    d4 fis a r
+    r2 r4 fis\p
+    e( g) fis r
+    r2 r4 d'8 cis %15
+    cis4( h) a r
+    fis2\fE gis
+    a4 a a r
+    a1
+    a4 r r2 %20
+    e fis
+    g1~
+    g2 g,
+    fis r
+    fis fis' %25
+    e4 g a, r
+    a'1~
+    a
+    r8 fis fis fis fis4 d'
+    r g,8 e d4 cis %30
+    d r a'2
+    g8 r g e d!4 cis
+    d r r2
+    R1
+    r4 a'\p fis r %35
+    r a e g
+    fis r r2
+    r4 d cis a'
+    r h a gis
+    r cis-\dolce a e %40
+    cis4. e8 \appoggiatura e16 d8( cis d h)
+    a4 r r2
+    r8 cis e a cis4 r
+    R1
+    r8 cis a e cis4 r %45
+    r d2 gis4
+    r a\sf a a
+    a r cis,2\p
+    d4 fis r2
+    r8 g, cis e g4 r %50
+    r fis a8 g a fis
+    h4 r h, g'
+    r2 fis4 a
+    r e g g,
+    fis r r2 %55
+    r4 a-\dolce d fis
+    a4. fis8 \appoggiatura a16 g8 fis g e
+    d4 r r2
+    R1
+    r4 e g cis, %60
+    r fis a d,
+    r c' h r
+    r a r a
+    r h g r
+    r fis fis r %65
+    r g e r
+    r e g r
+    r d' fis, r
+    R1*2 %70
+    r4 cis'-\dolce a e
+    cis4. e8 \appoggiatura e16 d8( cis) d( h)
+    a4 r cis2\sf
+    d d4 dis
+    e2 e4 fis %75
+    g2 e
+    cis g
+    g'4 e2 g,4
+    fis a'2 fis4
+    e fis g4. g,8 %80
+    fis4 a a r
+    a'1\p
+    h
+    fis~
+    fis4 d\f d2 %85
+    cis4 e gis2
+    a r
+    fis1
+    h4 r r2
+    d, g4 e %90
+    cis8 cis e d cis4 r
+    r8 e g fis e4 g
+    fis2 fis
+    e4 g fis e
+    d a\p d fis %95
+    a4. fis8 e( fis g e)
+    fis4\f r fis2
+    fis4 r fis2
+    h4 r d,2
+    d4 fis a r %100
+    r2 r4 fis\pE
+    e( g) fis r
+    r2 r4 d'8 cis
+    cis4( h) a r
+    d2\fE gis, %105
+    a4 a a r
+    a1~
+    a4 r r2
+    e fis
+    g1~ %110
+    g2 g,
+    fis r
+    r4 fis' e g
+    fis d' r d
+    r h a g %115
+    fis d' r2
+    a1\p
+    h
+    d2\f e,
+    e g, %120
+    fis4 d' fis g8 e
+    fis4 r a r
+    g2 g4 g
+    g g8. g16 g4 r
+    fis2 fis4 fis %125
+    d'2 h
+    e,4 fis e2
+    d8 a fis' e d4 r
+    r8 a fis' e d4 r
+    r8 a fis' e d a' a cis %130
+    d4 fis, e e
+    d fis g2
+    fis4 a, e'2
+    d4 d'8 d d a a fis
+    a fis fis d fis d d a %135
+    d4 r a' a
+    fis r r2\fermata \bar "|." %137 finis
+  }
+}

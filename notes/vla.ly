@@ -454,3 +454,147 @@ LaudateViola = {
     b4 <f d' b'> b r\fermata \bar "|." %76 finis
   }
 }
+
+MagnificatViola = {
+  \relative c' {
+    \clef alto
+    \key d \major \time 4/4 \tempoMagnificat
+    d,8\f a' a d h h e e
+    e e g cis, cis e g cis,
+    d16 a a a a a a a d8 fis16. a32 d16. a32 fis16. d32
+    cis8( a') cis,( a') a,( cis) a'( cis,)
+    r16. a32 a'16. e32 cis8( e) d4 a'8-! fis-! %5
+    d16. d32 fis16. a32 fis8-! d-! r16. h32 d16. fis32 \parOn h,8-\parenthesize-! \parOff h-\parenthesize-!
+    a a a a a fis' d d \noBreak
+    a16 a a a a a h\p h h8( a) r4
+    \tempoMagnificatB d8\f a' fis d d' d, d' cis \noBreak
+    h fis d h h' h, h' a %10
+    g d h g g' d h' g
+    fis a d a fis a\p fis d
+    e( a,) e'( a,) d( a) d( a)
+    a' a a a, d fis a fis
+    d-! d-! cis( d) d,4 d' %15
+    d2~ d8 a'\f fis d
+    h h h h h h h h
+    a a' a, a a4 r
+    r a2 a4~
+    a a2 a4 %20
+    a1
+    a8 a a a a a a a
+    a a a a a a a a
+    a4 fis' d a
+    h d' h fis %25
+    g e a a,
+    fis'8 d fis d a fis' a, fis'
+    g e g e a, cis a cis
+    r a' fis a d a fis d
+    g g e e a a a, a %30
+    <a fis'>4 q r8 a d, a'
+    e' a g g a d,! g a,
+    a4. fis8\p g' e cis a
+    d a d h d fis d g
+    d4 fis8 d a a4 a8 %35
+    a4 a cis8( e) cis-! cis-!
+    d4 d fis h,
+    h8 d h d cis4 e
+    h fis'8 d a4 gis8 h
+    cis4 a8( e) \slurDashed cis'( a) e( e') \slurSolid %40
+    e, e4 e8 e4 gis
+    e a gis e~
+    e a cis a
+    e' e,8 e' gis4 h8 gis
+    a cis, e a cis, cis cis cis %45
+    d4 e, d' gis
+    e8 e4 e8 e cis e a,
+    e4 cis' e cis
+    fis fis d d8 a
+    a e' cis a a a4 cis8 %50
+    d4 a d8 d4 a'8
+    g g4 g8 d d4 g8
+    a4 fis4. a8 fis d
+    a4 a8 cis e4 cis8 e
+    a,4 e'8 g^\critnote d4 cis8 a %55
+    a a4 d,8 d' fis4 a,8
+    d4 d, cis' e
+    d d, d'8 d e e
+    fis fis,4 fis8 a4 fis
+    a4. e'8 e4 cis %60
+    a4. d8 d,4 d'
+    g fis g h,
+    c8 a c c g4 a
+    d h d e
+    fis8 fis dis dis fis fis dis dis %65
+    h4 h8 g' h, fis' e d
+    e d cis d e e cis cis
+    a2 d8 a' fis a
+    <fis a,>2 q
+    e8 e h h e e h h %70
+    cis( a) a( cis) cis( e) e( a,)
+    e2 e4 gis
+    e8 a'\sfE a, a a4 r
+    a8 a' a, a a4 r
+    a8 a' a, a a4 r %75
+    a8 a' a, a a a' a, a
+    b b' b, b b b' b, b
+    a a' a, a cis a' cis, cis
+    d a' d, a' fis a fis a
+    e a d, a' cis, a' cis, a' %80
+    d, a' a a a4 d,\p
+    fis,2. d'4
+    g,2. d'4
+    a2. d4
+    h8 h\fE h h h h h h %85
+    a a a a e' e e e
+    a, a' e' cis a e cis a
+    r d d' cis h4 h,
+    r8 h h' a g4 g
+    r8 g, g' fis e4 g, %90
+    a r a r
+    a r a r
+    r8 d d' cis h h, h' a
+    g g e g a4 a,
+    <a fis'> d,\p fis d %95
+    d d' a a
+    a8\f a' fis d d' d, d' cis
+    h fis d h h' h, h' a
+    g d h g g' d h' g
+    fis a d a fis a\pE fis d %100
+    e( a,) e'( a,) d( a) d( a)
+    a' gis a a, d fis a fis
+    d d cis( d) d,4 d'
+    d2~ d8 a'\fE fis d
+    h h h h h h h h %105
+    a a' a, a a4 r
+    r a2 a4~
+    a a2 a4
+    a2 a
+    a8 a a a a a a a %110
+    a a a a a a a a
+    d4 fis d a
+    h8 d a d g, g' a a,
+    d d' fis, d' g, d' a d
+    h d g, e a a a, a' %115
+    h4 h, r d\p
+    fis,2. d'4
+    g,2. d'4
+    gis,8\f gis gis gis gis gis gis gis
+    a a a a cis cis cis cis %120
+    d d fis fis a a a, a
+    a4 r a r
+    a8 a a a a a a a
+    a a a a a a e' e
+    d h h h h h h h %125
+    h h h h h h h h
+    a a a a a a a a
+    a4 r r8 a fis' e
+    d4 r r8 a fis' e
+    d4 r r2 %130
+    r8 d h' a g e a a,
+    d fis a d, a a' a a
+    d, fis a d, a a' a a
+    d,4 d8 d d a' a fis
+    a fis fis d fis d d a %135
+    d4 r <d d,> q
+    q r r2\fermata \bar "|." %137 finis
+  }
+}
